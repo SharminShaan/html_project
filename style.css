@@ -21,6 +21,20 @@ img{
     max-width: 100%;
     height: auto;
 }
+.alignleft{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto;
+}
 
 /*
 =============================
@@ -304,5 +318,39 @@ slider css
     font-size: 35px;
 }
 
-
+/*
+=============================
+HERO area css
+===============================
+*/
+#hero_area{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+.inner_hero{
+    overflow: hidden;
+}
+.inner_hero h2{
+    color: #000000;
+    font-size: 86px;
+    line-height: 1em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.inner_hero p{
+    color: #666666;
+    font-size: 16px;
+    font-weight: normal;
+}
+.inner_hero a{
+    float: right;
+    color: #ba2e1f;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.inner_hero a:hover{
+    color: #000;
+}
 

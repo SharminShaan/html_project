@@ -184,10 +184,10 @@ main header css
 .social_area ul li a:hover i.fa-pinterest{
     background: #D64134;   
 }
-.social_area ul li a:hover i.fa-google-plus g{
+.social_area ul li a:hover i.fa-google-plus-g{
     background: #DE2A32;   
 }
-.social_area ul li a:hover i.fas fa-rss{
+.social_area ul li a:hover i.fa-rss{
     background: #ee802f;   
 }
 
@@ -448,6 +448,153 @@ work area css
     font-weight: normal;
 }
 
+/*
+=============================
+footer area css
+===============================
+*/
+#footer_area{
+    background: #fff;
+    padding: 45px 0;
+}
+.inner_footer{
+    overflow: hidden;
+}
+.child_footer{
+    padding: 1%;
+    margin: 0 1% 10px;
+    width: 21%;
+    float: left;
+}
+.child_footer h3{
+    border-top: 1px solid #666666;
+    color: #666666;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-top: 5px;
+}
+.child_footer h4{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+}
+.child_footer h4 a{
+    color: #666666;
+    float: none;
+    text-decoration: none;
+}
+.child_footer h4 a:hover{
+    color: #ba2e1f;
+}
+.child_footer h6{
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 1.3em;
+}
+.child_footer p{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 0;
+}
+.child_footer p a{
+    color: #b92d1f;
+    text-decoration: none;
+}
+.child_blog {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.child_blog a{
+    color: #ba2e1f;
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+}
+.child_footer a:hover{
+ 
+}
+.child_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.child_footer ul ul{
+    display: none;
+}
+.child_footer li{
+    background: url(img/next.png) no-repeat center left;
+    display: block;
+    border-bottom: 1px solid #666666;
+    padding-left: 18px;
+    padding-bottom: 8px;
+}
+.child_footer li:last-child{
+    border-bottom: 0;
+}
+.child_footer li a{
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.child_footer li a:hover{
+    color: #b92d1f;
+}
+.child_footer input{
+    background: #f2f2f2;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.child_footer textarea{
+    background: #f2f2f2;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.child_footer input[type="submit"]{
+    width: 80px;
+    color: #b92d1f;
+    cursor: pointer;
+}
+.child_footer input[type="submit"]:hover{
+    background: #b92d1f;
+    color: #fff;
+}
+
+/*
+=============================
+copyright area css
+===============================
+*/
+#copyright_area{
+    background: #f2f2f2;
+    padding: 20px 0;
+}
+.inner_copyright{
+    overflow: hidden;
+}
+.inner_copyright p{
+    margin: 0;
+    color: #919191;
+    font-size: 12px;
+}
+.left_copyright{
+    float: left;
+    width: 60%;
+}
+.right_copyright{
+    float: right;
+    text-align: right;
+    width: 40%;
+}
 
 
 

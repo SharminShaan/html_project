@@ -48,7 +48,7 @@ top header css
 }
 
 #top_header_area{
-    background: #ba2e1f;
+    background: #fed20c;
     padding: 15px 0;
     width: 100%;
 }
@@ -91,7 +91,7 @@ top header css
     text-decoration: none;
  }
  .mini_menu ul li a:hover{
-    color: #ddd;
+    color: #130f40;
     
  }
 .search_area{
@@ -129,6 +129,8 @@ main header css
 */
 
 #main_header_area{
+    background-image: url(img/background-1.jpg);
+    
     width: 100%;
     clear: both;
 }
@@ -238,10 +240,10 @@ main menu css
     padding: 5px;
 }
 #main_menu ul li a:hover{
-    color: #ba2e1f;
+    color: #fed20c;
 }
 #main_menu ul li:hover a{
-    color: #ba2e1f;
+    color: #fed20c;
 }
 #main_menu ul li:hover ul li a{
     color: #fff;
@@ -250,7 +252,7 @@ main menu css
 
 #main_menu ul ul{
     position: absolute;
-    background: #ba2e1f;
+    background: #fed20c;
     width: 180px;
     left: -999999px;
     top: 33px;
@@ -359,7 +361,7 @@ work area css
 ===============================
 */
 #work_area{
-    background: #f2f2f2;
+    background: #ffffff;
     padding: 45px 0;
 }
 .inner_work{
@@ -387,7 +389,7 @@ work area css
     text-decoration: none;
     clear: both;
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
 }
 .child_work a:hover{
     color: #262626;
@@ -401,9 +403,7 @@ work area css
     display: block;
     margin-bottom: 15px;
 }
-.service_area{
-    
-}
+
 .child_service{
     width: 100%;
     overflow: hidden;
@@ -415,7 +415,7 @@ work area css
 }
 .child_service .service_text{
     width: 75%;
-    float: right;
+    float: left;
 }
 .child_service .service_text h3{
     font-size: 14px;
@@ -514,9 +514,7 @@ footer area css
     text-decoration: none;
     font-size: 14px;
 }
-.child_footer a:hover{
- 
-}
+
 .child_footer ul{
     margin: 0;
     padding: 0;
